@@ -1,0 +1,68 @@
+{
+    "algorithm": {
+        "command": null,
+        "id": 6,
+        "name": "Embeddings from Language Models (ELMo)",
+        "tool": "https://github.com/ltgoslo/simple_elmo_training",
+        "url": "https://allennlp.org/elmo",
+        "version": null
+    },
+    "contents": [
+        {
+            "filename": "options.json",
+            "format": "json"
+        },
+        {
+            "filename": "meta.json",
+            "format": "json"
+        },
+        {
+            "filename": "model.hdf5",
+            "format": "data"
+        },
+        {
+            "filename": "vocab.txt",
+            "format": "text"
+        },
+        {
+            "filename": "model.ckpt.index",
+            "format": "data"
+        },
+        {
+            "filename": "model.ckpt.meta",
+            "format": "data"
+        },
+        {
+            "filename": "model.ckpt.data-00000-of-00001",
+            "format": "data"
+        }
+    ],
+    "corpus": [
+        {
+            "NER": false,
+            "case preserved": true,
+            "description": "Corpus of Historical American English",
+            "id": 131,
+            "language": "eng",
+            "lemmatized": true,
+            "public": false,
+            "stop words removal": null,
+            "tagger": "UDPipe 1.2",
+            "tagset": null,
+            "tokens": 154000000,
+            "url": "https://www.english-corpora.org/coha/"
+        }
+    ],
+    "creators": [
+        {
+            "email": "andreku@ifi.uio.no",
+            "name": "Andrey Kutuzov"
+        }
+    ],
+    "dimensions": 2048,
+    "documentation": [
+        "https://nejlt.ep.liu.se/article/view/3478"
+    ],
+    "id": 225,
+    "iterations": 3
+}
